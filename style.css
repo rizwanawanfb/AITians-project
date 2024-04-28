@@ -103,6 +103,10 @@
     width: 100%;
 }
 
+.functional-buttons a {
+    text-decoration: none;
+}
+
 .primary {
     display: flex;
     padding: 12px 22px;
@@ -128,6 +132,7 @@
 
 .primary:hover {
     background-color: #172f33;
+    cursor: pointer;
 }
 
 .secondery {
@@ -149,6 +154,7 @@
 
 .secondery:hover {
     background-color: #1a3a3f15;
+    cursor: pointer;
 }
 
 .secondery a {
