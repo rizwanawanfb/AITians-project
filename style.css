@@ -3,6 +3,7 @@
     margin: 0;
     font-family: "Helvetica Neue";
     color: #1A3A3F;
+    box-sizing: border-box;
 }
 
 .main-container {
@@ -28,6 +29,14 @@
     gap: 8px;
 }
 
+.inner-para {
+    color: #8B8E8B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .inner-con-1 h3 {
     font-size: 26px;
     font-style: normal;
@@ -43,13 +52,26 @@
     line-height: normal;
 }
 
+.input-fields {
+    width: 100%;
+}
+
 .text-placeholder {
-    display: flex;
     padding: 16px;
     border-radius: 8px;
     border: 1px solid #E8EBEC;
     background: #FFF;
-    width: 468px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.last-placeholder{
+    margin-bottom: 14px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #E8EBEC;
+    background: #FFF;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -92,8 +114,6 @@
 }
 
 .main-container p {
-    color: #1A3A3F;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
@@ -117,7 +137,7 @@
     background: #1A3A3F;
     color: white;
     border: none;
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 16px;
     font-style: normal;
