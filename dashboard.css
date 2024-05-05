@@ -178,7 +178,7 @@
 
 .grid-item:hover {
     border-radius: 12px;
-    border: 1px solid var(--Light-grey, #EFEFEF);
+    outline: 1px solid var(--Light-grey, #EFEFEF);
     background: var(--White, #FFF); 
     cursor: pointer;
 }
