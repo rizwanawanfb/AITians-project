@@ -17,9 +17,11 @@
 .inner-conteiner {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
+    margin: 0px 20px;
     gap: 32px;
     align-items: center;
+    text-align: center;
 }
 
 .inner-con-1 {
